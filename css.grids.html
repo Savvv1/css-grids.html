@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+.grid-container {
+  	display: grid;
+  	grid-template-columns:1fr 1fr;
+	grid-gap: 30px;
+  	background-color: #CA1919;
+  	padding: 30px;
+}
+
+.grid-container > div {
+ 	background:#30823B;
+	padding:2em;
+  	text-align: center;
+  	font-size: 30px;
+}
+	
+.grid-container > div :nth-child(even) {
+		background:#722224;
+}
+</style>
+</head>
+<body>
+
+<h1>Is Electric the Future of Transportation?</h1>
+
+<p>Tesla, Rivian, Lucid and Fisker are all competing to prove it:</p>
+
+<div class="grid-container">
+  <div class="item1">Tesla</div>
+  <div class="item2">Rivian</div>
+  <div class="item3">Lucid</div>  
+  <div class="item4">Fisker</div>
+</div>
+
+
+}
+</body>
+</html>
